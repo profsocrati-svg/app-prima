@@ -3,161 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI nella Didattica</title>
+    <title>Leonardo a Milano</title>
     <style>
-        /* Stili generali */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #eaf2f8;
+            background-color: #f4f4f4;
             color: #333;
         }
-
-        /* Header */
         header {
-            background-color: #FF5733; /* Arancione vivace */
+            background-color: #004d40;
             color: white;
-            padding: 40px 20px;
+            padding: 1rem 0;
             text-align: center;
         }
-
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.2em;
-        }
-
-        /* Menù di navigazione */
         nav {
-            background-color: #4CAF50; /* Verde brillante */
-            padding: 10px;
+            background-color: #00796b;
             text-align: center;
+            padding: 0.5rem 0;
         }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            display: inline-block;
-            margin: 10px;
-        }
-
-        nav ul li a {
+        nav a {
+            color: white;
             text-decoration: none;
-            color: white;
-            padding: 12px 20px;
-            font-size: 1.1em;
-            background-color: #FF5733; /* Arancione */
-            border-radius: 25px;
-            transition: background-color 0.3s ease;
+            padding: 0 1rem;
+            font-weight: bold;
         }
-
-        nav ul li a:hover {
-            background-color: #C70039; /* Rosso intenso */
-        }
-
-        /* Sezioni */
-        section {
-            padding: 40px;
-            margin: 20px auto;
+        .container {
             width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        section {
             background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        section h2 {
-            font-size: 2em;
-            color: #FF5733;
-            text-align: center;
+        h2 {
+            color: #004d40;
+            border-bottom: 2px solid #004d40;
+            padding-bottom: 0.5rem;
         }
-
-        section p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            text-align: justify;
+        .artwork {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
         }
-
-        /* Footer */
+        .artwork img {
+            width: 200px;
+            height: auto;
+            margin-right: 1.5rem;
+            border-radius: 4px;
+        }
+        .artwork-text {
+            flex: 1;
+        }
         footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #4CAF50; /* Verde */
+            background-color: #004d40;
             color: white;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 1.1em;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
+
     <header>
-        <h1>AI nella Didattica</h1>
-        <p>Esplora come l'intelligenza artificiale può trasformare l'insegnamento e l'apprendimento</p>
+        <h1>Leonardo Da Vinci a Milano 🎨</h1>
+        <p>Il genio del Rinascimento nella città meneghina</p>
     </header>
 
-    <!-- Menu di Navigazione -->
     <nav>
-        <ul>
-            <li><a href="#funzionamento">Funzionamento AI</a></li>
-            <li><a href="#rischi">Rischi</a></li>
-            <li><a href="#costi">Costi</a></li>
-            <li><a href="#primaria">Scuola Primaria</a></li>
-            <li><a href="#secondaria">Scuola Secondaria</a></li>
-            <li><a href="#medica">Ricerca Medica</a></li>
-        </ul>
+        <a href="#tavole">Tavole</a> |
+        <a href="#affreschi">Affreschi</a> |
+        <a href="#codici">Codici</a>
     </nav>
 
-    <!-- Sezione 1: Funzionamento dell'AI -->
-    <section id="funzionamento">
-        <h2>Funzionamento Generale dell'AI</h2>
-        <p>L'intelligenza artificiale (AI) si basa su algoritmi che permettono alle macchine di "apprendere" da dati e prendere decisioni. I principali tipi di AI includono il machine learning e il deep learning, che consentono ai sistemi di migliorare e adattarsi nel tempo senza essere esplicitamente programmati per ogni situazione.</p>
-    </section>
+    <div class="container">
+        <section id="tavole">
+            <h2>Tavole</h2>
+            <div class="artwork">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Leonardo_da_Vinci_-_Ritratto_di_musico_-_Pinacoteca_Ambrosiana.jpg/300px-Leonardo_da_Vinci_-_Ritratto_di_musico_-_Pinacoteca_Ambrosiana.jpg" alt="Ritratto di musico">
+                <div class="artwork-text">
+                    <h3>Ritratto di musico</h3>
+                    <p>Opera custodita presso la **Pinacoteca Ambrosiana**. È l'unica tavola su legno di Leonardo a Milano. Nonostante il soggetto non sia certo, si pensa possa essere il compositore Franchino Gaffurio.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Sezione 2: Rischi dell'AI -->
-    <section id="rischi">
-        <h2>Rischi dell'AI</h2>
-        <p>Nonostante i numerosi vantaggi, l'uso dell'AI in campo educativo presenta alcuni rischi. Tra questi, la possibilità di discriminazione algoritmica, la perdita di posti di lavoro per i docenti e le preoccupazioni legate alla privacy degli studenti. È essenziale un uso etico e responsabile dell'AI per evitare questi problemi.</p>
-    </section>
+        <section id="affreschi">
+            <h2>Affreschi</h2>
+            <div class="artwork">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ultima_Cena_-_Leonardo_da_Vinci_-_WGA.jpg/300px-Ultima_Cena_-_Leonardo_da_Vinci_-_WGA.jpg" alt="Ultima Cena">
+                <div class="artwork-text">
+                    <h3>L'Ultima Cena</h3>
+                    <p>Celebre dipinto murale conservato nel refettorio del convento di Santa Maria delle Grazie. Realizzato tra il 1495 e il 1498, rappresenta il momento in cui Gesù annuncia il tradimento di uno degli apostoli.</p>
+                </div>
+            </div>
+            <div class="artwork">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Leonardo_da_Vinci%2C_Sala_delle_Asse.jpg/300px-Leonardo_da_Vinci%2C_Sala_delle_Asse.jpg" alt="Sala delle Asse">
+                <div class="artwork-text">
+                    <h3>Sala delle Asse</h3>
+                    <p>Dipinto murale nel **Castello Sforzesco**. Rappresenta un intreccio di rami e foglie di gelso che formano un pergolato, unendo la natura e l'architettura. Un'opera che mostra la sua maestria nella decorazione e botanica.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Sezione 3: Costi dell'AI -->
-    <section id="costi">
-        <h2>I Costi dell'AI</h2>
-        <p>L'adozione dell'AI nelle scuole comporta costi per l'acquisto di software, l'installazione di hardware e la formazione del personale. Questi costi iniziali possono essere elevati, ma l'AI ha anche il potenziale di ridurre i costi a lungo termine, migliorando l'efficienza nell'insegnamento e nell'amministrazione scolastica.</p>
-    </section>
+        <section id="codici">
+            <h2>Codici e Manoscritti</h2>
+            <div class="artwork">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Codice_Atlantico.jpg/300px-Codice_Atlantico.jpg" alt="Codice Atlantico">
+                <div class="artwork-text">
+                    <h3>Codice Atlantico</h3>
+                    <p>La più grande raccolta di disegni e scritti di Leonardo, esposta in parte presso la **Pinacoteca Ambrosiana**. Comprende 1.119 fogli con progetti di ingegneria, invenzioni, studi scientifici, disegni e schizzi, testimoniando la sua vasta curiosità intellettuale.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
-    <!-- Sezione 4: Applicazioni nella Scuola Primaria -->
-    <section id="primaria">
-        <h2>Applicazioni nella Scuola Primaria</h2>
-        <p>L'AI può essere utilizzata per creare esperienze di apprendimento personalizzate, dove gli studenti ricevono contenuti e attività in base al loro livello e al loro stile di apprendimento. Inoltre, può supportare i docenti nella valutazione delle competenze e nel monitoraggio dei progressi degli studenti.</p>
-    </section>
-
-    <!-- Sezione 5: Applicazioni nella Scuola Secondaria -->
-    <section id="secondaria">
-        <h2>Applicazioni nella Scuola Secondaria</h2>
-        <p>In ambito secondario, l'AI può aiutare a migliorare l'insegnamento delle materie scientifiche e delle lingue straniere, offrendo risorse interattive, tutor virtuali e sistemi di valutazione automatizzati. Inoltre, può preparare gli studenti a comprendere e utilizzare la tecnologia che diventerà parte integrante del loro futuro professionale.</p>
-    </section>
-
-    <!-- Sezione 6: Applicazioni nella Ricerca Medica -->
-    <section id="medica">
-        <h2>Applicazioni nella Ricerca Medica</h2>
-        <p>Nel campo della ricerca medica, l'AI sta trasformando la diagnosi delle malattie, l'analisi delle immagini mediche e la progettazione di trattamenti personalizzati. In futuro, l'AI potrà essere utilizzata per accelerare la ricerca e migliorare la qualità delle cure.</p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 AI nella Didattica. Tutti i diritti riservati.</p>
+        <p>&copy; 2025 Leonardo a Milano - Tutti i diritti riservati.</p>
     </footer>
+
 </body>
 </html>
